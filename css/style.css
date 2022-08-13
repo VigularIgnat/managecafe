@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#first_body{
+   background-color: #fff;
+   
+}
+.div_menu{
+
+    width: 100%;
+    background-color: #01AFB3;
+    height: 80px;
+
+}
+
+.div_menu div{
+   
+    margin-right: 60px;
+    font-size: 24px;
+    color: #fff;
+    padding: 5px;
+    height: 50%;
+    
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+
+#portal_icon{
+    float: left;
+    font-size: 12px;
+}
+
+#portal_icon svg{
+    display: block;
+    margin-left: 45px;
+}
+
+#portal_icon p{
+    margin-left: 20px;
+}
+.menu_options{
+    display: flex;
+    font-size: 12px;
+    justify-content: right;
+    flex-direction: row;
+}
+
+.menu_options div{
+    margin-top: 10px;
+    padding: 9px;
+}
+
+.menu_options div:hover{
+   
+    background: #fa9a10;
+}
+#hall{
+    position: relative;
+    width: 700px;
+    height: 500px;
+    overflow: hidden;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    left:20px;
+}
+
+.table{
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    border: 1px solid #000;
+}
+
+#order_div{
+    display: none;
+    width: 90%;
+    height: 500px;
+    border: 2px solid #000;
+    background-color: #fff;
+    opacity: 0.85;
+    border-radius: 20px;
+    position: fixed;
+    left: calc(50% - 45%);
+    top: 10%;
+    padding: 10px;
+    
+}
+
+.horizontal{
+    transform: rotate(90deg);
+}
+
+#close_order{
+    position: absolute;
+    right: 10px;
+}
+
+.icon_close{
+    width: 1em;
+    height: 1em;
+    background-color:red;  
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+    
+    border: none;
+    margin-top: 10px;
+}
+
+#order_div p{
+    margin-top: 10px;
+    
+    font-size: 18px;
+}
+
+
+#close_order{
+    background-color: transparent;
+    border: none;
+}
+
+.main_order_div{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    flex-direction: row;
+
+}
+
+#products_div{
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    background-color: aqua;
+    overflow-y: scroll;
+    top: 10px;
+}
